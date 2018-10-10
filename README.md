@@ -5,3 +5,6 @@ Experiment used a subset of Seibert et al 2016 (BioRxiv) stimuli of highly varia
 HighVarObjs_rsa.mat is the main analysis script - produces confusion matrices.
 
 prepare_highvarobjs_data.m turns xDiva EEG matlab files to a format usable by the MatclassRSA toolbox used to train and test the machine learning classificatoin algorithm.
+
+
+kaneshiro_rsa_highvarobjsReplication.m used data from Kaneshiro et al.2015 (PLOS ONE) using comparable number of subjects and trials per subject/per image to HighVarObjs (5 subjects, 12 trials per subject/per image) to assess impact of low trial and subject count in the HighVarObjs project.
